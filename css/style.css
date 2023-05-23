@@ -3,3 +3,100 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #B91450;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+
+}
+
+.col_33{
+    width: 33%;
+    text-align: center;
+}
+
+h3{
+    color: #B91450;
+    padding: 20px 0;
+}
+
+.col_50{
+    width: 50%;
+    display: flex;
+    padding-top: 40px;
+    
+}
+
+.genera{
+    justify-content: flex-end;
+    padding-right: 5px;
+    
+}
+.annulla{
+    justify-content: flex-start;
+    padding-left: 5px;
+}
+
+
+#genera, #annulla{
+    background-color: lightgrey;
+    color: #B91450;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#genera{
+    border: 2px solid orange;
+}
+
+/* secondo container */
+
+.second_container{
+    padding: 30px;
+}
+.col_30{
+    width: 30%;
+    background-color: gray;
+    text-align: center;
+    padding-top: 10px;
+    height: 100px;
+}
+
+.col_10{
+    width: calc(70% / 4);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.risultati{
+    padding-top: 30px;
+}
+
+.second_row{
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+#nome_passeggero{
+    font-size: 22px;
+    text-align: start;
+    padding-left: 30px;
+    font-weight: 800;
+}
